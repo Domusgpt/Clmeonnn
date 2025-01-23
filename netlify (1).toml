@@ -1,0 +1,5 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self' cdnjs.cloudflare.com fonts.googleapis.com www.youtube.com; script-src 'unsafe-inline' 'unsafe-eval'; style-src 'unsafe-inline';"
+    X-Content-Type-Options = "nosniff"

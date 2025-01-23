@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#00f3ff">
+    <title>CLEAR_SEAS_SOLUTIONS | Quantum AI Architecture</title>
+    
+    <!-- Dependencies -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Exo+2:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/postprocessing/EffectComposer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/shaders/GlitchShader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="quantumCanvas"></canvas>
+
+    <!-- Reality Stack -->
+    <div id="realityStack">
+        <!-- Hero Layer -->
+        <section class="reality-layer active" data-depth="0.1">
+            <div class="title-singularity">
+                <h1 class="glitch-text">CLEAR_SEAS_SOLUTIONS</h1>
+                <div class="scanline"></div>
+            </div>
+        </section>
+
+        <!-- About Layer -->
+        <section class="reality-layer" data-depth="0.3">
+            <div class="hologram-portal">
+                <iframe src="https://www.youtube.com/embed/bxSvG2s8e-o" 
+                        allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="reality-layer" data-depth="0.5">
+            <div class="data-crystals">
+                <div class="crystal" style="background-image: url('assets/images/neon-grid.png')"></div>
+                <div class="crystal" style="background-image: url('assets/images/runway-bg.jpg')"></div>
+                <div class="crystal" style="background-image: url('assets/images/hex-pattern.png')"></div>
+            </div>
+        </section>
+
+        <!-- Contact Event Horizon -->
+        <section class="reality-layer" data-depth="0.7">
+            <form class="quantum-form" netlify>
+                <input type="text" name="name" class="neon-field" placeholder="[IDENTITY MATRIX]" required>
+                <input type="email" name="email" class="neon-field" placeholder="[TRANSMISSION FREQUENCY]" required>
+                <textarea name="message" class="neon-field" placeholder="[QUANTUM QUERY]" rows="4" required></textarea>
+                <button type="submit" class="transmit-pulse">INITIATE CONVERGENCE</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
